@@ -68,4 +68,4 @@ jobs:
       - name: images
         run: docker images
       - name: Publish Docker image
-        run: docker push rameshaccenture/github_action:githubaction .
+        run: docker push rameshaccenture/github_action:githubaction
