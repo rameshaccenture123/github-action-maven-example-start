@@ -66,4 +66,4 @@ jobs:
       - name: Build Container image
         run: docker build -t rameshaccenture:latest .
       - name: Publish Docker image
-        run: docker push github_action
+        run: docker push
