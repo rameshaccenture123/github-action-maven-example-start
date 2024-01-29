@@ -66,5 +66,5 @@ jobs:
       - name: Build Container image
         run: docker build -f Dockerfile -t ${{ secrets.DOCKER_REPO }}:docker .
       - name: Publish Docker image
-        run: docker image push --all-tags ${{ secrets.DOCKER_REPO }}:docker
+        run: docker image push ${{ secrets.DOCKER_REPO }}:docker
      
